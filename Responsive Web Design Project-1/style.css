@@ -1,0 +1,423 @@
+nav ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li a{
+    font-weight: 600;
+}
+
+
+
+
+.nav-icon span img{
+    width: 24px;
+}
+
+/*------home page----*/
+
+.intoduction{
+    font-size: 56px;
+    color: rgb(39, 39, 112);
+    
+}
+.intro{
+    font-size: 20px;
+    opacity: 0.7;
+}
+.mybtn{
+    margin: 4px 8px;
+
+}
+.mybtn-2{
+    color: rgb(0, 66, 207);
+    
+}
+
+
+/*-----workflow-*/
+
+.workflow-head{
+    padding-top: 30px;
+    color: rgb(39, 39, 112);
+}
+.workflow-text{
+    padding: 12px 0;
+    opacity: 0.7;
+}
+.workflow h4{
+    color: rgb(34, 34, 88);
+}
+.workflow p{
+    opacity: 0.7;
+}
+
+
+.workflow-item:hover{
+    box-shadow: 4px 4px 8px 6px rgba(122, 122, 122, 0.603);
+}
+
+
+.flex{
+    display: flex;
+
+}
+.flex-item{
+    width: 31%;
+    background-color: rgb(236, 235, 235);
+    border-radius: 10px;
+   
+}
+.workflow-item-2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-item a{
+    display: block;
+    text-align: center;
+    padding: 8px 4px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.arrow img{
+    width: 48px;
+    opacity: 0.7;
+}
+
+
+.information-head{
+    color:rgb(34, 34, 88);
+}
+
+/*-------details----*/
+
+.details{
+    background: rgb(222, 240, 247);
+}
+.details h1, .details h2, .details h5{
+    color: rgb(34, 34, 88);
+
+}
+.details p{
+    opacity: 0.7;
+}
+
+.image-filtering{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.image{
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 111, 252, 0.692),rgba(0, 102, 255, 0.733)),url('image/1st sec.jpg');
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 4%;
+}
+
+/*------servise-------*/
+
+
+.Service h3{
+    color: rgb(34, 34, 88);
+}
+
+.Service p, .Service h5{
+    opacity: 0.7;
+
+}
+.Service ul li{
+    opacity: 0.7;
+}
+
+.gentlemen{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url('image/gentlemen.jpg');
+    background-size: cover;
+}
+
+
+.control-workflow{
+    width: 100%;
+    background-size: cover;
+    background-image: linear-gradient(rgba(1, 63, 44, 0.466),rgba(12, 56, 52, 0.747)),url('image/1st sec.jpg');
+    color: rgb(235, 233, 233);
+    
+
+}
+
+/*----team----*/
+
+.team p{
+    opacity: 0.7;
+    text-align: justify;
+
+}
+.team h1, .team h5, .team h6{
+    color: rgb(34, 34, 88);
+}
+.team-member{
+    padding: 25px 0;
+}
+
+.member-1, .member-2, .member-3{
+    width: 242px;
+    height: 242px;
+    border-radius: 50%;
+    background-size: cover;
+
+}
+.member-1{
+    background-image: url('image/member-1.jpg');
+
+}
+.member-2{
+    background-image: url('image/gentlemen.jpg');
+
+}
+.member-3{
+    background-image: url('image/member-3.jpg');
+
+}
+
+.media{
+    overflow: hidden;
+}
+.media img{
+    transition: 0.5s;
+}
+.media img:hover{
+    transform: scale(1.5);
+}
+
+.end-team{
+    padding: 100px;
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(235, 76, 76, 0.582),rgba(144, 235, 92, 0.747)),url('image/end-team.jpg');
+}
+
+.massage{
+    display: flex;
+}
+.team-massage{
+    width: 50%;
+    margin-left: auto;
+    padding: 30px;
+    background-color: rgb(245, 239, 230);
+    border-radius: 10px;
+}
+
+.massage-sender{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('image/member-1.jpg');
+}
+.sender-name{
+    padding: 18px;
+}
+
+
+/*--------price-------*/
+
+.fees{
+    background-color: rgb(240, 249, 255);
+}
+
+.price-menu{
+    display: flex;
+}
+
+.price-type{
+    width: 31%;
+    margin: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(122, 122, 122, 0.603);
+}
+.price-type:hover{
+    box-shadow: 4px 4px 8px 6px rgba(122, 122, 122, 0.603);
+}
+
+.price p{
+    opacity: 0.7;
+
+}
+.price h1, .price h2 .price h4{
+    color: rgb(34, 34, 88);
+}
+
+/*------articale-------*/
+
+
+.articles h5, .articles h6, .articles small{
+    opacity: 0.7;
+
+}
+.articles h2, .articles h4{
+    color: rgb(34, 34, 88);
+}
+
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.writter div{
+    display: inline-block;
+
+}
+.writter small{
+    display: inline-block;
+    padding: 8px;
+}
+
+.writter-1{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('image/manager.jpg');
+}
+.writter-2{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('image/member-1.jpg');
+}
+.writter-3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('image/member-3.jpg');
+}
+.writter-4{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url('image/gentlemen.jpg');
+}
+
+
+/*--------footer----*/
+
+.social-media{
+    display: inline-block;
+    padding: 4px 8px;
+}
+
+.products a,
+.company a,
+.support a,
+.address p{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.products a:hover,
+.company a:hover,
+.support a:hover{
+    color: white;
+    opacity: 1;
+}
+.btn-new{
+    padding: 0px 6px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn-new:hover{
+    cursor: pointer;
+
+}
+
+.baack-top{
+    width: 100%;
+    text-align: right;
+
+}
+.baack-top a{
+    color: white;
+    opacity: 0.7;
+    padding: 5px;
+    
+}
+.baack-top a:hover{
+    color: #fff;
+    opacity: 1;
+}
+hr{
+   height: 1px;
+   border: none;
+   background-color: #fff;
+   opacity: 0.7;
+
+}
+
+
+
+/*--------About-u page------*/
+
+.about-us{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(14, 17, 31, 0.7),rgba(4,9,30,0.7)),url('image/about-us.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(2, 255, 179);
+    padding: 100px 20px 100px 20px;
+
+}
+/*--------Servicese------*/
+
+.service{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(14, 17, 31, 0.7),rgba(4,9,30,0.7)),url('image/services.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(2, 255, 179);
+    padding: 100px 20px 100px 20px;
+
+}
+
+/*--------Works------*/
+.work{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(14, 17, 31, 0.7),rgba(4,9,30,0.7)),url('image/work.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(2, 255, 179);
+    padding: 100px 20px 100px 20px;
+
+}
+
+/*--------bloges------*/
+
+.blog{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(14, 17, 31, 0.7),rgba(4,9,30,0.7)),url('image/blog.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: rgb(2, 255, 179);
+    padding: 100px 20px 100px 20px;
+
+}

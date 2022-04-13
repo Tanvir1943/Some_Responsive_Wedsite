@@ -1,0 +1,68 @@
+@media(max-width:991px){
+
+    .car-text h1{
+        display: inline-block;
+    }
+    
+}
+
+@media(max-width:767px){
+    .car{
+        display: block;
+    
+    }
+    .car-text,
+    .car-pic{
+        width: 90%;
+        display: block;
+        
+    }
+
+    .price-item{
+        width: 33%;
+    }
+
+
+}
+
+@media(max-width:575px){
+    .price-item{
+        width: 50%;
+    }
+
+}
+
+@media(max-width:420px){
+
+    .price{
+        display: block;
+    }
+    .price-item{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .tailor-flex{
+        display: block;
+        align-items: center;
+    }
+    .tailor{
+        display: block;
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .another-tailor{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    
+    }
+
+}
+

@@ -1,0 +1,204 @@
+
+.nav-link:hover{
+    background-color: rgb(7, 241, 7);
+    border-radius: 35px;
+}
+.active a{
+    border: 1px solid rgba(107, 105, 105, 0.541);
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+
+
+/*-------slider paghe ------*/
+
+
+.slider{
+    background-color: rgba(247,247,247,255);
+
+}
+.car{
+    display: flex;
+
+}
+.car-text,
+.car-pic{
+    width: 49%;
+    display: inline-block;
+    
+}
+.dog-offer{
+    background-color: rgba(12,17,54,255)
+    ;
+    color: #fff;
+}
+
+
+/*------price=------*/
+
+.price-details{
+
+    background-color: rgba(247,247,247,255);
+}
+.price{
+    display: flex;
+    justify-content: center;
+}
+.price-item{
+    width: 20%;
+    background-color: rgba(12,17,54,255)
+    ;
+    padding: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.font-f{
+    font-family: 'Lobster', cursive;
+}
+
+
+/*-----work------*/
+
+.work{
+    background-color: rgba(12,17,54,255)
+    ;
+}
+.worker{
+    text-align: center;
+}
+
+.worker-1{
+    width: 200px;
+    height:200px;
+    border-top-left-radius: 70%;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 80%;
+    border-bottom-right-radius: 100%;
+    border: 5px solid rgb(17, 192, 17);
+    background-image: url('image/dm-3.jpg');
+    background-size: cover;
+    display: inline-block;
+    margin-left: auto;
+ 
+  
+    
+}
+.worker-2{
+    width: 200px;
+    height:200px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 90%;
+    border: 5px solid rgb(17, 192, 17);
+    background-image: url('image/dm-1.jpg');
+    background-size: cover;
+    display: inline-block;
+    margin-left: auto;
+}
+.worker-3{
+    width: 200px;
+    height:200px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 80%;
+    border-bottom-left-radius: 110%;
+    border-bottom-right-radius: 60%;
+    border: 5px solid rgb(17, 192, 17);
+    background-image: url('image/dog-1.jpg');
+    background-size: cover;
+    display: inline-block;
+    margin-left: auto;
+}
+
+
+.dog-bag{
+    background-color: rgba(247,247,247,255);
+}
+
+
+/*-----customer----*/
+
+
+
+
+
+.tailored{
+    background-color: rgba(12,17,54,255)
+    ;
+}
+
+.tailor-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.tailor{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(17, 192, 17);
+    padding: 40px 10px 10px 20px;
+    border-radius: 50%;
+    color: #fff;
+}
+.another-tailor{
+
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(17, 192, 17);
+    padding: 60px 10px 10px 20px;
+    border-radius: 50%;
+    background-color: #fff;
+
+}
+
+
+/*-----lucky pups----*/
+
+.pups{
+    background-color: rgba(246,246,246,255)
+    ;
+}
+
+.dog-lover{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('image/being-dog-lover-face-portrait-260nw-1396651634.jpg');
+    background-size: cover;
+}
+
+.doggies{
+    background-color: rgba(0,164,78,255)
+    ;
+}
+
+
+/*-----footer----*/
+
+.footer{
+    background-color: rgba(12,17,54,255);
+}
+
+
+
+/*-----log in----*/
+
+.login{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('image/being-dog-lover-face-portrait-260nw-1396651634.jpg');
+    background-size: cover;
+}
+
+
+/*-------contact-----*/
+
+.contact{
+    background-image: url('image/contact.jpg');
+    background-size: cover;
+
+}
+
+
+
+

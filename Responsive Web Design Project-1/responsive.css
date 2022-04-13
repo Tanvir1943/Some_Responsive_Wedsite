@@ -1,0 +1,107 @@
+@media screen and (max-width:1200px) {
+   .flex-item{
+       padding: 8px;
+   }
+
+    
+}
+
+@media screen and (max-width:991px) {
+    .price-menu{
+        display: block;
+    }
+    
+    .price-type{
+        width: 100%;
+        margin: 16px 0;
+      
+    }
+    .brand{
+        text-align: center;
+    }
+  
+
+
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    /*-----workflow---*/
+
+    .flex{
+        display: block;
+    }
+    .flex-item{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .workflow-item-2{
+     
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .intoduction{
+        font-size: 36px;
+      
+        
+    }
+
+    /*-----details---*/
+
+    .details h2{
+        font-size: 24px;
+        text-align: justify;
+    }
+  
+
+    .team-massage{
+        width: 80%;
+        margin-left: auto;
+        padding: 20px;
+        background-color: rgb(245, 239, 230);
+        border-radius: 10px;
+    }  
+
+    /*-----price-----*/
+
+    
+
+   
+ }
+
+
+
+ @media screen and (max-width:576px) {
+    .team-massage{
+        display: none;
+    }
+    footer .products,
+    footer .company,
+    footer .support,
+    footer .address{
+        width: 48%;
+        display: inline-block;
+    }
+    footer .company,
+    footer .address{
+        text-align: right;
+    }
+
+     
+    .about-us h1,
+    .service h1,
+    .work h1,
+    .blog h1{
+        font-size: 80px;
+
+    }
+
+ }
+
+
+
+
+

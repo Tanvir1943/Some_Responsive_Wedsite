@@ -1,0 +1,15 @@
+.nav-link:hover{
+    background-color:green;
+    border-radius: 30px;
+}
+.dropdown-menu{
+    box-shadow: 8px 16px 12px rgba(243, 104, 104, 0.5);
+}
+.slide{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+

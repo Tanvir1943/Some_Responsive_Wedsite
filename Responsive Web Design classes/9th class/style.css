@@ -1,0 +1,57 @@
+nav{
+    background-color: rgb(204, 204, 204);
+
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+ul li{
+    float: left;
+    
+
+}
+ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 18px;
+    color: black;
+    font-weight: bold;
+    
+
+}
+ul li a:hover{
+    background-color: blue;
+    border-radius: 30px;
+    color: white;
+}
+
+.drop-content{
+    background-color: greenyellow;
+    box-shadow: 5px 10px 8px rgba(0,0,0,0.5);
+    display: none;
+    position: absolute;
+}
+
+.drop-content  a{
+    display: block;
+
+
+}
+
+.drop-content  a:hover{
+    background-color: rgb(192, 192, 191);
+    border-radius: 0;
+
+}
+.dropdown:hover .drop-content{
+    display: block;
+    margin-left: 10px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 200px;
+}
